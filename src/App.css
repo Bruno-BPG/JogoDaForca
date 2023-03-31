@@ -1,19 +1,191 @@
-.App {
-  text-align: center;
+body{
+  background-color: #282c34;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.box1{
+
+  display: flex;
+  justify-content: flex-end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box2{
+  /* background-color: green; */
+  width: 900px;
+  height: 500px;
 }
 
-.App-header {
+.box3{
+  background-color: goldenrod;
+  width: 100%;
+  height: 200px;
+}
+
+.conteinerTeclado{
+  margin-left: 50px;
+  margin-top: 50px;
+  background-color: rgb(65, 61, 61);
+  width: 350px;
+  height: 200px;
+}
+
+.teclado{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.tecla{
+  margin: 5px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  width: 37px;
+  height: 37px;
+  cursor: pointer;
+}
+
+.tecla:hover{
+  background-color: rgb(78, 74, 74);
+  color: aqua;
+}
+
+
+
+
+
+
+
+
+
+.base{
+  background-color: aliceblue;
+  width: 250px;
+  height: 10px;
+  margin-top: 350px;
+  margin-left: 50px;
+  position: absolute;
+}
+
+.coluna{
+  background-color: aliceblue;
+  width: 10px;
+  height: 250px;
+  margin-top: 100px;
+  margin-left: 100px;
+  position: absolute;
+}
+
+.caibo{
+  background-color: aliceblue;
+  width: 150px;
+  height: 10px;
+  margin-top: 100px;
+  margin-left: 100px;
+  position: absolute;
+}
+
+.corda{
+  background-color: goldenrod;
+  width: 5px;
+  height: 50px;
+  margin-top: 100px;
+  margin-left: 240px;
+  position: absolute;
+}
+
+/* .corda2{
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 225px;
+  border: solid 5px goldenrod;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+} */
+
+
+
+
+
+
+
+
+.cabeca{
+  background-color: grey;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 220px;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.corpo{
+  background-color: grey;
+  width: 6px;
+  height: 65px;
+  margin-top: 165px;
+  margin-left: 238px;
+  position: absolute;
+}
+
+.bracoEsquerdo{
+  position: absolute;
+  background-color:grey;   
+  margin-top: 178px;
+  margin-left: 224px;
+  height: 40px;
+  width: 6px;
+  transform: skew(-35deg); 
+}
+
+.bracoDireito{
+  position: absolute;
+  background-color:grey;   
+  margin-top: 178px;
+  margin-left: 252px;
+  height: 40px;
+  width: 6px;
+  transform: skew(35deg); 
+}
+
+.pernaDireito{
+  position: absolute;
+  background-color:grey;   
+  margin-top: 227px;
+  margin-left: 255px;
+  height: 50px;
+  width: 6px;
+  transform: skew(35deg); 
+}
+
+.pernaEsquerdo{
+  position: absolute;
+  background-color:grey;   
+  margin-top: 227px;
+  margin-left: 220px;
+  height: 50px;
+  width: 6px;
+  transform: skew(-35deg); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,17 +194,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
