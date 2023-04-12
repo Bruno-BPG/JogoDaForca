@@ -1,43 +1,80 @@
-body{
-  background-color: #282c34;
+/* @media ( max-width: 500px ) { */
+
+body {
+  background: red;
+
 }
 
+.conteinerDica{
+  width: 100%;
+  height: 50px;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.box1{
+.textDica{
+  color: white;
+  font-size: 23px;
+}
 
+.box1 {
   display: flex;
   justify-content: flex-end;
 }
 
-.box2{
+.box2 {
   /* background-color: green; */
   width: 900px;
   height: 500px;
 }
 
-.box3{
+.box3 {
   background-color: goldenrod;
   width: 100%;
-  height: 200px;
+  height: 350px;
+
 }
 
-.conteinerTeclado{
-  margin-left: 50px;
-  margin-top: 50px;
+.conteinerResposta {
+  background-color: blueviolet;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textResposta{
+  color: white;
+  font-size: 23px;
+}
+
+.conteinerTeclado2{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 200px;
+  background-color: brown;
+}
+
+.conteinerTeclado {
   background-color: rgb(65, 61, 61);
   width: 350px;
   height: 200px;
 }
 
-.teclado{
+.teclado {
   padding: 10px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  
 }
 
-.tecla{
+.tecla {
   margin: 5px;
   font-size: 30px;
   display: flex;
@@ -49,30 +86,22 @@ body{
   cursor: pointer;
 }
 
-.tecla:hover{
+.tecla:hover {
   background-color: rgb(78, 74, 74);
   color: aqua;
 }
 
-
-
-
-
-
-
-
-
-.base{
-  background-color: aliceblue;
-  width: 250px;
+.base {
+  background-color: #957a56;
+  width: 115px;
   height: 10px;
   margin-top: 350px;
   margin-left: 50px;
   position: absolute;
 }
 
-.coluna{
-  background-color: aliceblue;
+.coluna {
+  background-color: #957a56;
   width: 10px;
   height: 250px;
   margin-top: 100px;
@@ -80,8 +109,8 @@ body{
   position: absolute;
 }
 
-.caibo{
-  background-color: aliceblue;
+.caibo {
+  background-color: #957a56;
   width: 150px;
   height: 10px;
   margin-top: 100px;
@@ -89,11 +118,11 @@ body{
   position: absolute;
 }
 
-.corda{
-  background-color: goldenrod;
+.corda {
+  background-color: aliceblue;
   width: 5px;
   height: 50px;
-  margin-top: 100px;
+  margin-top: 105px;
   margin-left: 240px;
   position: absolute;
 }
@@ -108,81 +137,66 @@ body{
   height: 25px;
 } */
 
-
-
-
-
-
-
-
-.cabeca{
+.cabeca {
   background-color: grey;
   position: absolute;
-  margin-top: 130px;
+  margin-top: 155px;
   margin-left: 220px;
   border-radius: 100%;
   width: 40px;
   height: 40px;
 }
 
-.corpo{
+.corpo {
   background-color: grey;
   width: 6px;
-  height: 65px;
-  margin-top: 165px;
+  height: 70px;
+  margin-top: 180px;
   margin-left: 238px;
   position: absolute;
 }
 
-.bracoEsquerdo{
+.bracoEsquerdo {
   position: absolute;
-  background-color:grey;   
-  margin-top: 178px;
+  background-color: grey;
+  margin-top: 200px;
   margin-left: 224px;
   height: 40px;
   width: 6px;
-  transform: skew(-35deg); 
+  transform: skew(-35deg);
 }
 
-.bracoDireito{
+.bracoDireito {
   position: absolute;
-  background-color:grey;   
-  margin-top: 178px;
+  background-color: grey;
+  margin-top: 200px;
   margin-left: 252px;
   height: 40px;
   width: 6px;
-  transform: skew(35deg); 
+  transform: skew(35deg);
 }
 
-.pernaDireito{
+.pernaDireito {
   position: absolute;
-  background-color:grey;   
-  margin-top: 227px;
+  background-color: grey;
+  margin-top: 250px;
   margin-left: 255px;
   height: 50px;
   width: 6px;
-  transform: skew(35deg); 
+  transform: skew(35deg);
 }
 
-.pernaEsquerdo{
+.pernaEsquerdo {
   position: absolute;
-  background-color:grey;   
-  margin-top: 227px;
+  background-color: grey;
+  margin-top: 250px;
   margin-left: 220px;
   height: 50px;
   width: 6px;
-  transform: skew(-35deg); 
+  transform: skew(-35deg);
 }
 
-
-
-
-
-
-
-
-
-
+/* } */
 
 
 /* .App-header {
